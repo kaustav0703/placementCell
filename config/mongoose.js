@@ -3,7 +3,7 @@ const mongoose = require("mongoose");
 
 //connecting to the database
 mongoose.connect(
-  "mongodb://127.0.0.1:27017/placementCell"
+  "mongodb+srv://kaustavborgohain007:1234@cluster0.bu4jp6b.mongodb.net/?retryWrites=true&w=majority"
 );
 
 // acquiring the connection to check if it is succesfull
