@@ -36,7 +36,7 @@ app.use(
     },
     store: MongoStore.create({
       mongoUrl:
-        "mongodb://127.0.0.1:27017/placementCell",
+        "mongodb+srv://kaustavborgohain007:1234@cluster0.bu4jp6b.mongodb.net/?retryWrites=true&w=majority",
       autoRemove: "disabled",
     }),
     function(err) {
